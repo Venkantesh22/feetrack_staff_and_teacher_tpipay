@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 ///[Do not add / at the end of the url]`
 
-const String baseUrl = "https://eschool-saas.wrteam.me";
+const String baseUrl = "https://admin.feetrack.in";
 
 const String databaseUrl = "$baseUrl/api/";
 

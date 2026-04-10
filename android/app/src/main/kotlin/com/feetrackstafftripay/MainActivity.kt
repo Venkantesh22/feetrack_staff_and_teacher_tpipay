@@ -1,4 +1,4 @@
-package com.wrteam.saas.staff
+package com.feetrackstafftripay
 
 import io.flutter.embedding.android.FlutterActivity
 

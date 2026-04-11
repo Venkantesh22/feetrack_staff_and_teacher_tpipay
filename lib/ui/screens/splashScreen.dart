@@ -59,7 +59,20 @@ class _SplashScreenState extends State<SplashScreen>
             );
           }
           return Center(
-            child: Image.asset(Utils.getImagePath("splash_logo.png")),
+            child: Container(
+              clipBehavior: Clip.antiAlias,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Image.asset(
+                Utils.getImagePath(
+                  "appLogo2.png",
+                ),
+                height: 120,
+                width: 120,
+                fit: BoxFit.cover,
+              ),
+            ),
           );
         },
       ),

@@ -92,8 +92,10 @@ dependency_overrides:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/appLogo.png"
+  image_path: "assets/images/appLogo2.png"
   remove_alpha_ios: true
+  adaptive_icon_background: "#000000" # Use your Matte Black theme color here
+  adaptive_icon_foreground: "assets/images/appLogo2.png"
 
 
 # For information on the generic Dart part of this file, see the

@@ -7,9 +7,28 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:920273629367:android:43cbad7b59de2d6c6add32",
+        "mobilesdk_app_id": "1:920273629367:android:c0dbfdf7e97eafbf6add32",
         "android_client_info": {
-          "package_name": "com.feetrackstafftripay"
+          "package_name": "com.tpipay.feetrack_student_parent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3clO5IKOX_c8nYPHKhv05moRx1JLxAdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920273629367:android:ae3b834795bfd0396add32",
+        "android_client_info": {
+          "package_name": "com.tpipay.feetrackstaff"
         }
       },
       "oauth_client": [],

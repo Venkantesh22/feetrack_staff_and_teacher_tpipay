@@ -56,7 +56,7 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
                     imageUrl: '${state.schoolDetails.schoolLogo}',
                     errorWidget: (context, url, error) => SvgPicture.asset(
                       fit: BoxFit.fill,
-                      Utils.getImagePath("appLogo.svg"),
+                      Utils.getImagePath("appLogo5.svg"),
                     ),
                     height: context.height * 0.17,
                     width: context.width * 0.4,
@@ -99,13 +99,13 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
                                 ),
                                 errorWidget: (context, url, error) =>
                                     SvgPicture.asset(
-                                  Utils.getImagePath("appLogo.svg"),
+                                  Utils.getImagePath("appLogo5.svg"),
                                   fit: BoxFit.fill,
                                 ),
                                 fit: BoxFit.fill,
                               )
                             : SvgPicture.asset(
-                                Utils.getImagePath("appLogo.svg"),
+                                Utils.getImagePath("appLogo5.svg"),
                                 fit: BoxFit.fill,
                               ),
                       );

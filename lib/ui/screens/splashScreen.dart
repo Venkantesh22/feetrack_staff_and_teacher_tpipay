@@ -66,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen>
               ),
               child: Image.asset(
                 Utils.getImagePath(
-                  "appLogo2.png",
+                  "appLogo4.png",
                 ),
                 height: 120,
                 width: 120,

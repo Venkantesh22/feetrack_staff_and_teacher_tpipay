@@ -1,4 +1,4 @@
-package com.feetrackstafftripay
+package com.tpipay.feetrackstaff
 
 import io.flutter.embedding.android.FlutterActivity
 

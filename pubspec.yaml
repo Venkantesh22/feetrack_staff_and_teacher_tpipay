@@ -2,7 +2,7 @@ name: eschool_saas_staff
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 3.0.0+28
 
 environment:
-    sdk: ">=3.0.2 <4.0.0"
+  sdk: ">=3.0.2 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,9 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
-    sdk: flutter  
-
-
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -62,20 +60,16 @@ dependencies:
   responsive_builder:
   open_file: ^3.5.10
   external_path: ^2.2.0
-  shared_preferences: 
+  shared_preferences:
   package_info_plus:
   web_socket_channel: ^3.0.1
   image_picker: ^1.1.2
   bloc: any
   device_preview: ^1.3.1
-  
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
-
-  
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -90,26 +84,23 @@ dependency_overrides:
   intl: ^0.20.0
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
-  image_path: "assets/images/appLogo2.png"
+  image_path: "assets/images/applogo4.png"
   remove_alpha_ios: true
-  adaptive_icon_background: "#000000" # Use your Matte Black theme color here
-  adaptive_icon_foreground: "assets/images/appLogo2.png"
-
+  adaptive_icon_background: "#FFFFFF" # Use your Matte Black theme color here
+  adaptive_icon_foreground: "assets/images/applogo4.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
- 
   # To add assets to your application, add an assets section, like this:
 
   assets:
@@ -117,7 +108,6 @@ flutter:
     - google_fonts/
     - assets/languages/
     # - assets/animations/
-
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
